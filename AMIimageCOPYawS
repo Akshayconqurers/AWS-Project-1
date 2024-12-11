@@ -1,0 +1,32 @@
+How to Create an Image Copy in AWS Free Tier
+1. Log in to AWS Console
+Open AWS Management Console and sign in with your account credentials.
+2. Navigate to the EC2 Dashboard
+In the AWS Management Console, search for EC2 in the search bar and click on it to open the EC2 dashboard.
+3. Select the AMI (Amazon Machine Image)
+In the EC2 dashboard, on the left-hand side menu, select AMIs under the "Images" section.
+Filter for Owned by me to view the AMIs you have created or have access to.
+4. Choose the AMI to Copy
+Locate the AMI you want to copy from the list.
+Select the AMI by clicking the checkbox next to its name.
+5. Initiate the Copy Process
+Click on the Actions button at the top of the screen.
+From the dropdown menu, select Copy AMI.
+6. Configure the AMI Copy
+In the Copy AMI dialog box:
+Destination Region: Choose the target region where the AMI should be copied. For Free Tier accounts, ensure the region is eligible for Free Tier usage.
+Name: Provide a meaningful name for the copied AMI.
+Description: Optionally, add a description to explain the purpose of the AMI.
+7. Initiate the Copy
+Once all details are filled in, click Copy AMI to start the copying process.
+AWS will display a confirmation message indicating that the copy process has started.
+8. Monitor the Copy Progress
+Navigate to the AMIs section in the target region (switch the region from the top-right dropdown in the AWS Management Console).
+Wait until the status of the copied AMI changes to Available. This indicates that the copying process is complete.
+9. Use the Copied AMI
+Once the AMI is available, you can launch a new EC2 instance from it:
+Select the AMI.
+Click on Launch.
+Follow the steps to configure and launch your instance.
+10. Verify the Instance
+Once the instance is launched, connect to it to ensure everything is working as expected.
